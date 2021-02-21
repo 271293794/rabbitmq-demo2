@@ -1,0 +1,22 @@
+{
+  "name": "rabbitmq-demo2",
+  "version": "1.0.0",
+  "description": "使用rabbitmq实现一个抢购活动，只有前100名用户可以拿到某个诱人的奖品，要保证不会出现超过100个用户抢购成功的bug,本例让不使用rabbitmq和使用rabbitmq的例子对比。是nodejs实战第二季中的一个demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node stressTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "node-cmd": "^3.0.0",
+    "node-uuid": "^1.4.8",
+    "request": "^2.88.2",
+    "sequelize": "^5.21.4",
+    "siege": "^0.2.0"
+  }
+}
